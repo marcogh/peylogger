@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from peylogger import struct_format
 from struct import unpack, calcsize
 

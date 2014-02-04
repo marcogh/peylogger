@@ -6,6 +6,8 @@ from ctypes.util import find_library
 from time import time
 from struct import pack
 
+struct_format='B?L'
+
 assert("linux" in sys.platform)
 
 __all__ = ('struct_format', 'fetch_keys', 'log', '__main__')
